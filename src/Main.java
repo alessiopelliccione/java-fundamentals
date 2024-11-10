@@ -1,3 +1,4 @@
+import abstraction.PersonImpl;
 import dataStructures.CustomArrayList;
 import dataStructures.CustomHashSet;
 import dataStructures.CustomLinkedList;
@@ -70,6 +71,13 @@ public class Main {
         // Test exception handling
         ExceptionHandlingDemo exceptionDemo = new ExceptionHandlingDemo();
         exceptionDemo.demonstrateExceptionHandling();
+
+        // Create an instance of PersonImpl
+        PersonImpl person = new PersonImpl("John Doe", 30, "Software Engineer");
+
+        // Display person information and role
+        person.printInfo();
+        person.performRole();
 
     }
 
