@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead8c757-0faa-40e1-a3f7-febcb9c8f3c3" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/models/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/PersonInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Student.java" afterDir="false" />
+    <list default="true" id="ead8c757-0faa-40e1-a3f7-febcb9c8f3c3" name="Changes" comment="Add custom data structures for ArrayList, LinkedList, and HashSet with test cases&#10;&#10;- Implemented CustomArrayList to demonstrate ArrayList properties and basic operations&#10;- Created CustomLinkedList to illustrate LinkedList differences and functionality&#10;- Added CustomHashSet to explore HashSet uniqueness and hashCode-based handling&#10;- Provided test cases in Main to validate behavior of each custom data structure">
+      <change afterPath="$PROJECT_DIR$/src/utilities/AccessModifiersExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utilities/EncapsulationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utilities/InheritanceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utilities/PolymorphismDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -19,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -78,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731254089093</updated>
-      <workItem from="1731254091395" duration="1308000" />
+      <workItem from="1731254091395" duration="2040000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -88,7 +89,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731254212634</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implement basic Java OOP structure with Person and Student classes&#10;&#10;- Added Person class with encapsulation and PersonInterface implementation&#10;- Created Student class extending Person to demonstrate inheritance and polymorphism&#10;- Added main class for testing functionality of Person and Student instances&#10;- Verified encapsulation by modifying properties through setters">
+      <option name="closed" value="true" />
+      <created>1731255445834</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731255445834</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add custom data structures for ArrayList, LinkedList, and HashSet with test cases&#10;&#10;- Implemented CustomArrayList to demonstrate ArrayList properties and basic operations&#10;- Created CustomLinkedList to illustrate LinkedList differences and functionality&#10;- Added CustomHashSet to explore HashSet uniqueness and hashCode-based handling&#10;- Provided test cases in Main to validate behavior of each custom data structure">
+      <option name="closed" value="true" />
+      <created>1731255797407</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731255797407</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +124,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="Implement basic Java OOP structure with Person and Student classes&#10;&#10;- Added Person class with encapsulation and PersonInterface implementation&#10;- Created Student class extending Person to demonstrate inheritance and polymorphism&#10;- Added main class for testing functionality of Person and Student instances&#10;- Verified encapsulation by modifying properties through setters" />
+    <MESSAGE value="Add custom data structures for ArrayList, LinkedList, and HashSet with test cases&#10;&#10;- Implemented CustomArrayList to demonstrate ArrayList properties and basic operations&#10;- Created CustomLinkedList to illustrate LinkedList differences and functionality&#10;- Added CustomHashSet to explore HashSet uniqueness and hashCode-based handling&#10;- Provided test cases in Main to validate behavior of each custom data structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add custom data structures for ArrayList, LinkedList, and HashSet with test cases&#10;&#10;- Implemented CustomArrayList to demonstrate ArrayList properties and basic operations&#10;- Created CustomLinkedList to illustrate LinkedList differences and functionality&#10;- Added CustomHashSet to explore HashSet uniqueness and hashCode-based handling&#10;- Provided test cases in Main to validate behavior of each custom data structure" />
   </component>
 </project>

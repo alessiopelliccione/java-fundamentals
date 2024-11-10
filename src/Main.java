@@ -3,6 +3,10 @@ import dataStructures.CustomHashSet;
 import dataStructures.CustomLinkedList;
 import models.Person;
 import models.Student;
+import utilities.AccessModifiersExample;
+import utilities.EncapsulationDemo;
+import utilities.InheritanceDemo;
+import utilities.PolymorphismDemo;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,6 +21,26 @@ public class Main {
 
         // Test CustomHashSet
         testCustomHashSet();
+
+        // Test access modifiers
+        AccessModifiersExample accessModifiersExample = new AccessModifiersExample();
+        System.out.println("Access Modifiers Example:");
+        accessModifiersExample.showAccess();
+
+        // Test polymorphism
+        PolymorphismDemo polymorphismDemo = new PolymorphismDemo();
+        System.out.println("\nPolymorphism Demo:");
+        polymorphismDemo.demonstratePolymorphism();
+
+        // Test inheritance
+        InheritanceDemo inheritanceDemo = new InheritanceDemo();
+        System.out.println("\nInheritance Demo:");
+        inheritanceDemo.demonstrateInheritance();
+
+        // Test encapsulation
+        EncapsulationDemo encapsulationDemo = new EncapsulationDemo();
+        System.out.println("\nEncapsulation Demo:");
+        encapsulationDemo.demonstrateEncapsulation();
     }
 
     // Method to test Person and Student classes
