@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead8c757-0faa-40e1-a3f7-febcb9c8f3c3" name="Changes" comment="Add custom data structures for ArrayList, LinkedList, and HashSet with test cases&#10;&#10;- Implemented CustomArrayList to demonstrate ArrayList properties and basic operations&#10;- Created CustomLinkedList to illustrate LinkedList differences and functionality&#10;- Added CustomHashSet to explore HashSet uniqueness and hashCode-based handling&#10;- Provided test cases in Main to validate behavior of each custom data structure">
-      <change afterPath="$PROJECT_DIR$/src/utilities/AccessModifiersExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utilities/EncapsulationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utilities/InheritanceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utilities/PolymorphismDemo.java" afterDir="false" />
+    <list default="true" id="ead8c757-0faa-40e1-a3f7-febcb9c8f3c3" name="Changes" comment="Add utility classes to demonstrate key OOP concepts: access modifiers, polymorphism, inheritance, and encapsulation&#10;&#10;- Added AccessModifiersExample to show usage of private, protected, and public modifiers&#10;- Implemented PolymorphismDemo to illustrate polymorphic behavior with Person and its subclasses&#10;- Created InheritanceDemo to demonstrate inheritance relationships among Person, Student, and Teacher&#10;- Added EncapsulationDemo to show the use of getters and setters in encapsulation&#10;- Updated Main to test functionality of each utility class">
+      <change afterPath="$PROJECT_DIR$/src/keywords/AbstractClassExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/keywords/ExceptionHandlingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/keywords/FinalKeywordDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/keywords/InstanceofDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/keywords/StaticKeywordDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/keywords/SuperAndThisDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/keywords/impl/ConcreteClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731254089093</updated>
-      <workItem from="1731254091395" duration="2040000" />
+      <workItem from="1731254091395" duration="2641000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -105,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731255797407</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add utility classes to demonstrate key OOP concepts: access modifiers, polymorphism, inheritance, and encapsulation&#10;&#10;- Added AccessModifiersExample to show usage of private, protected, and public modifiers&#10;- Implemented PolymorphismDemo to illustrate polymorphic behavior with Person and its subclasses&#10;- Created InheritanceDemo to demonstrate inheritance relationships among Person, Student, and Teacher&#10;- Added EncapsulationDemo to show the use of getters and setters in encapsulation&#10;- Updated Main to test functionality of each utility class">
+      <option name="closed" value="true" />
+      <created>1731256162998</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731256162998</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +138,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="Implement basic Java OOP structure with Person and Student classes&#10;&#10;- Added Person class with encapsulation and PersonInterface implementation&#10;- Created Student class extending Person to demonstrate inheritance and polymorphism&#10;- Added main class for testing functionality of Person and Student instances&#10;- Verified encapsulation by modifying properties through setters" />
     <MESSAGE value="Add custom data structures for ArrayList, LinkedList, and HashSet with test cases&#10;&#10;- Implemented CustomArrayList to demonstrate ArrayList properties and basic operations&#10;- Created CustomLinkedList to illustrate LinkedList differences and functionality&#10;- Added CustomHashSet to explore HashSet uniqueness and hashCode-based handling&#10;- Provided test cases in Main to validate behavior of each custom data structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add custom data structures for ArrayList, LinkedList, and HashSet with test cases&#10;&#10;- Implemented CustomArrayList to demonstrate ArrayList properties and basic operations&#10;- Created CustomLinkedList to illustrate LinkedList differences and functionality&#10;- Added CustomHashSet to explore HashSet uniqueness and hashCode-based handling&#10;- Provided test cases in Main to validate behavior of each custom data structure" />
+    <MESSAGE value="Add utility classes to demonstrate key OOP concepts: access modifiers, polymorphism, inheritance, and encapsulation&#10;&#10;- Added AccessModifiersExample to show usage of private, protected, and public modifiers&#10;- Implemented PolymorphismDemo to illustrate polymorphic behavior with Person and its subclasses&#10;- Created InheritanceDemo to demonstrate inheritance relationships among Person, Student, and Teacher&#10;- Added EncapsulationDemo to show the use of getters and setters in encapsulation&#10;- Updated Main to test functionality of each utility class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add utility classes to demonstrate key OOP concepts: access modifiers, polymorphism, inheritance, and encapsulation&#10;&#10;- Added AccessModifiersExample to show usage of private, protected, and public modifiers&#10;- Implemented PolymorphismDemo to illustrate polymorphic behavior with Person and its subclasses&#10;- Created InheritanceDemo to demonstrate inheritance relationships among Person, Student, and Teacher&#10;- Added EncapsulationDemo to show the use of getters and setters in encapsulation&#10;- Updated Main to test functionality of each utility class" />
   </component>
 </project>

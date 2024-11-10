@@ -33,8 +33,4 @@ public class Student extends Person {
         return "Student{name='" + getName() + "', age=" + getAge() + ", studentId='" + studentId + "'}";
     }
 
-    public void displayInfo() {
-        printInfo();
-    }
-
 }

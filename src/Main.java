@@ -1,6 +1,8 @@
 import dataStructures.CustomArrayList;
 import dataStructures.CustomHashSet;
 import dataStructures.CustomLinkedList;
+import keywords.*;
+import keywords.impl.ConcreteClass;
 import models.Person;
 import models.Student;
 import utilities.AccessModifiersExample;
@@ -41,6 +43,34 @@ public class Main {
         EncapsulationDemo encapsulationDemo = new EncapsulationDemo();
         System.out.println("\nEncapsulation Demo:");
         encapsulationDemo.demonstrateEncapsulation();
+
+        // Test final keyword
+        FinalKeywordDemo finalDemo = new FinalKeywordDemo();
+        finalDemo.demonstrateFinal();
+
+        // Test static keyword
+        StaticKeywordDemo.showCounter(); // Accessing static method
+        StaticKeywordDemo staticDemo = new StaticKeywordDemo();
+        staticDemo.incrementCounter();
+        StaticKeywordDemo.showCounter();
+
+        // Test abstract class
+        AbstractClassExample concreteClass = new ConcreteClass();
+        concreteClass.performAction();
+        concreteClass.showInfo();
+
+        // Test super and this
+        SuperAndThisDemo superThisDemo = new SuperAndThisDemo();
+        superThisDemo.displayBothMessages();
+
+        // Test instanceof
+        InstanceofDemo instanceofDemo = new InstanceofDemo();
+        instanceofDemo.demonstrateInstanceof(new Student("Alice", 20, "S1234"));
+
+        // Test exception handling
+        ExceptionHandlingDemo exceptionDemo = new ExceptionHandlingDemo();
+        exceptionDemo.demonstrateExceptionHandling();
+
     }
 
     // Method to test Person and Student classes
